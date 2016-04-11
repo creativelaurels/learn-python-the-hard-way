@@ -17,3 +17,12 @@ print "His teeth are usually %s depending on the coffee." % teeth
 print "If I add %d, %d, and %d I get %d." % (age, height, weight, age + height + weight)
 
 print "%s is %d centimeters tall." %(name, float(height * 2.54))
+
+#Additional study drill
+print "%r" % name # testing out the %r, not sure what it will do
+print "%r" % age, name
+
+print height * 2.54
+print round(height * 2.54)
+print float(height * 2.54)
+print float(height * 2)
