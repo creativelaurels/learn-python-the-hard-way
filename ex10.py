@@ -13,3 +13,21 @@ print tabby_cat
 print persian_cat
 print backslash_cat
 print fat_cat
+
+# I am going to play around with a few of these escape sequences right quick...
+test = """
+\t -One
+\t --Two
+\t ---Three
+\t ----Four
+"""
+
+print test
+
+backslash = "Back\\slash\\"
+single_quote = "Single\'iquote\'"
+double_quote = "Double\"quote\""
+
+print backslash
+print single_quote
+print double_quote
