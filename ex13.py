@@ -12,6 +12,6 @@ another_word = raw_input("Now give me another word: ")
 
 print "And I will cheer one more time:"
 
-print "You went with", once
-print "and also", twice
-print "but the best is", three
+print "You went with", first
+print "and also", second
+print "but the best is", third
