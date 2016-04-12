@@ -9,7 +9,9 @@ print "If you do want that, hit RETURN."
 raw_input("?")
 
 print "Opening the file..."
-target = open(filename, 'w')
+target = open(filename, 'w') # if the mode 'w' is omitted, the code will default to 'r'
+# You want to specify 'w' mode aka WRITE mode of opening the file becuase we are going to
+# truncate the file and then write to it
 
 print "Truncating the file. Goodbye!"
 target.truncate()
