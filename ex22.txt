@@ -1,0 +1,95 @@
+>KEYWORDS
+print - displays to the user
+raw_input() - prompts user for information
+os.path - os(operating system) is a module to access certain commands (such as exists)
+from - identifies the module to access eg. sys
+import - statement to find a module and initlize it eg. argv - this is how one module gains access to the code in another module
+sys - a module containing pre made code 
+argv - this premade code is command line raw_input
+open() - this is a command to open a file. You'll need to define what mode the file is being read in (r,w,a) or it will defauly to 'r'
+	r - read mode w - write mode a - append mode
+.read - this is a mode in which a file can be opened, and the information is read by the script
+.truncate - this will cut off a file 
+.write - this will write to a file for example text.write(parameters)
+.close - this will close an open file
+exists() - returns T/F, run via os.path - checks to see if a file is there or not
+len() - returns the length of a file (character count)
+def() - defines a function - lines of code
+.seek() - seek moves the 'read head' in a file, looks at bytes, not characters
+
+>SYMBOLS
+% modulus 
+# Mr. Octothorpe
+""" commenting over multiple lines
+"
+'
+\n new line
+
+
+
+NOTES
+
+A module is an objet with arbitarily named attributes that you can bind and reference
+A module is a file consisting of code
+print
+# comment
+	# Octothorpe
+PEMDAS - () e * / + -
+
+% Modulus
+	%s display
+	%d numbers
+	%r print no matter what - representation / raw - for debugging
+
+, - a comma can keep things on one line, override \n
+
+Python form - staying under 80 characers
+
+Escape sequences - before " or '
+
+""" write away!
+
+\t Tab
+
+Modules - from, import
+
+raw(input) - prompt from user
+argv - user input from the command line - its raw(input) on the command line basically
+
+"call" a function on something eg. call read() on txt : txt.read()
+that "." gives a command. read is the name of the command. () are parameters.
+
+os.path - 
+exists -  will check if File B exists - it will return True o
+
+.truncate()
+.write()
+
+Use + to combines lines of code, not commas
+
+open function - open(name, mode)
+	'w' opens in write mode
+	'r' opens in read mode
+	'a' opens in append mode
+	
+	Variables name strings and numbers
+	Functions name pieces of code
+
+args - function
+argv - variable
+
+def - makes functions
+run/call/use a function - all the same thing
+
+seek function looks at bytes, not lines in data (rewind function example)
+seek moves the "read head" (like on a dvd) to the start of the file ('0 bytes')
+
+read line scans for \n
+adding a comma (,) will renmove \n
+readline - reading a line from a file and moving the readline to the right after the \n that ends that line
+
+int(raw_input()) for numbers
+float(raw_input()) for numbers with decimal points
+
++= is a shortcut for saying 
+	x = x + y	same as	x += y
